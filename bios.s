@@ -51,5 +51,5 @@ CHROUT:
 .segment "RESETVEC"
                 .word   $0F00           ; NMI vector
                 .word   RESET           ; RESET vector
-                .word   $0000           ; IRQ vector
+                .word   $3A00           ; IRQ vector
 
