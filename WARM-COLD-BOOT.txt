@@ -1,0 +1,8 @@
+COLD_START AND RESTART (WARM)
+Press RESET button to exit BASIC and return to WOZMON.
+
+9F16R clears memory and starts BASIC.
+8347R runs basic while maintaining memory.
+
+al 009F16 .COLD_START
+al 008347 .RESTART
